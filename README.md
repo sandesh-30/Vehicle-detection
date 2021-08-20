@@ -9,3 +9,13 @@ Self-driving cars are slowly becoming the reality of our future. For cars to run
 
 The codes are written using Google Colab IDE and in python programming language.
 Most of the datasets and methods are open-sourced information and are used just for learning perspective.
+
+For more details read [Report](https://github.com/sandesh-30/Vehicle-detection/blob/main/Report.pdf)
+
+## Key Highlights 
+* Studied and applied Histogram of Oriented Gradients (HOG) feature descriptor for feature engineering
+* Reduced total number of features in an image from 12288 to 1764 (by 85.67%) using Histogram of Oriented Gradients feature descriptor
+* Reduced total number of features to 1764 (by 85.67%) using Histogram of Oriented Gradients feature descriptor
+* Performed hyperparameter tuning and cross-validation using GridSearch for SVC, Adaboost, and Random Forest
+* Trained and compared different ML algorithms like SVC, Random Forest, Perceptron, and Adaboost classifier
+* Attained ROC-AUC score of 0.9951 for SVC and obtained 8/9 correct classification on the test image set
